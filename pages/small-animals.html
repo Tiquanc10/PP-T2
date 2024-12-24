@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Animals</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="../images/logo1.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="cats.html">Cats</a></li>
+                    <li><a href="dogs.html">Dogs</a></li>
+                    <li><a href="birds.html">Birds</a></li>
+                    <li><a href="fish.html">Fish</a></li>
+                    <li><a href="small-animals.html">Small Animals</a></li>
+                </ul>
+            </nav>
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search..." />
+                <button type="button" onclick="performSearch()">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>About Small Animals</h1>
+            <p>
+                Sometimes we want a pet in our life but think it’s impossible because we are not home enough to take care of it, or we don’t have enough room. Consider adopting a small animal such as a hermit crab, mouse, gerbil, hamster, guinea pig, or even a chinchilla! Depending on which type of animal you adopt, you can provide a comfortable environment using anything from small to large cages or glass aquariums.
+            </p>
+            <p>
+                You will also need to provide amenities for your new pet, such as bedding or substrate, toys, an exercise wheel, a water dish or drip bottle, a food dish, and grooming equipment. You also need to consider if your new pet will need a friend or if it will be happy living alone. Our “Pexperts” are here to help you decide which pet is right for you and how to provide them with a happy home. Schedule a consultation with us today!
+            </p>
+
+            <div class="image-container">
+                <img src="../images/hampster1.jpg" alt="Hamster Image">
+                <img src="../images/farriet.jpg" alt="Small Animal Image">
+            </div>
+
+            <h2>Helpful Resources</h2>
+            <ul>
+                <li><a href="https://www.animalhumanesociety.org/adoption/guinea-pig-care" target="_blank">Guinea Pig Care</a></li>
+                <li><a href="https://www.bluecross.org.uk/pet-advice/caring-your-mouse" target="_blank">Mouse Care</a></li>
+                <li><a href="https://pethermitcrabs.org/cage-habitat/" target="_blank">Hermit Crab Care</a></li>
+                <li><a href="https://chinchillacare.org/cage-habitat/" target="_blank">Chinchilla Care</a></li>
+                <li><a href="https://petgerbils.org/cage-habitat/" target="_blank">Gerbil Care</a></li>
+                <li><a href="https://www.pdsa.org.uk/taking-care-of-your-pet/looking-after-your-pet/small-pets/the-ideal-home-for-your-hamster" target="_blank">Hamster Care</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="timezone">Time Zone:</label>
+                <input type="text" id="timezone" name="timezone" required>
+                <label for="pet-details">Pet Details (Name, Type, Age):</label>
+                <textarea id="pet-details" name="pet-details" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="conference-image">
+                <img src="../images/confrence.jpg" alt="Conference Image">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo-container">
+            <img src="../images/footer.png" alt="Footer Logo" class="footer-logo">
+            <p class="footer-text">
+                © 2024 Paradigm Pet Professionals. Providing expert advice and resources to care for your furry, scaly, feathery, and slimy loved ones.
+            </p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

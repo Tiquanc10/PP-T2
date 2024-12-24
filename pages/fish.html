@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="../images/logo1.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="cats.html">Cats</a></li>
+                    <li><a href="dogs.html">Dogs</a></li>
+                    <li><a href="birds.html">Birds</a></li>
+                    <li><a href="fish.html">Fish</a></li>
+                    <li><a href="small-animals.html">Small Animals</a></li>
+                </ul>
+            </nav>
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search..." />
+                <button type="button" onclick="performSearch()">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>About Fish</h1>
+            <p>
+                Fish represent a broad class of aquatic animals that can live in fresh or saltwater, depending on the species. Bringing fish into your home can be an exciting hobby, especially if you intend to breed them, and the presence of a fish tank in your home can induce feelings of peace and tranquility.
+            </p>
+            <p>
+                Whether you are bringing your fish home for the first time or maintaining your aquarium, it is important to test your water once per week to ensure it is free from toxins that can harm your fish.
+            </p>
+
+            <h2>Freshwater Fish</h2>
+            <p>
+                There are several freshwater fish to choose from when setting up your aquarium, but it is best to consult with a “Pexpert” to ensure your fish will get along! No matter the species, ensure your fish are suited for a freshwater environment by investing in a water testing kit. Follow these general water chemistry guidelines to ensure your fish will adapt well to your aquarium and avoid ingesting toxins that can harm or kill your fish:
+            </p>
+            <ul>
+                <li><strong>pH Level:</strong> 6.8–7.6 (7.0 is considered neutral)</li>
+                <li><strong>Ammonia:</strong> Any level above zero is harmful to fish</li>
+                <li><strong>Nitrates:</strong> 5 to 10 ppm</li>
+                <li><strong>Nitrites:</strong> Less than 0.5 ppm</li>
+            </ul>
+
+            <h2>Saltwater Fish</h2>
+            <p>
+                Saltwater fish also offer several options when it comes to choosing among species for your aquarium. As with freshwater fish, consult with a “Pexpert” to ensure your fish will get along and are suited for a saltwater environment. Follow these general guidelines to avoid dangerous water conditions and ensure the appropriate salinity level for your fish:
+            </p>
+            <ul>
+                <li><strong>Salinity:</strong> 1.020–1.028 sg</li>
+                <li><strong>pH Level:</strong> 7.6–8.4 (7.0 is considered neutral)</li>
+                <li><strong>Ammonia:</strong> Any level above 0.1 ppm requires attention</li>
+                <li><strong>Nitrates:</strong> 10 to 40 ppm</li>
+                <li><strong>Nitrites:</strong> Less than 0.2 ppm</li>
+            </ul>
+            <p>
+                For more information on making your tap water safe for your fish, please visit:
+                <a href="http://www.theaquariumwiki.org/wiki/How_to_make_tap_water_safe_for_fish" target="_blank">The Aquarium Wiki</a> |
+                <a href="http://fishbase.org/home.htm" target="_blank">FishBase</a>
+            </p>
+
+            <div class="image-container">
+                <img src="../images/fishbowl.jpg" alt="Fish Image 1">
+                <img src="../images/fish1.jpg" alt="Fish Image 2">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="timezone">Time Zone:</label>
+                <input type="text" id="timezone" name="timezone" required>
+                <label for="pet-details">Pet Details (Name, Type, Age):</label>
+                <textarea id="pet-details" name="pet-details" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="conference-image">
+                <img src="../images/confrence.jpg" alt="Conference Image">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo-container">
+            <img src="../images/footer.png" alt="Footer Logo" class="footer-logo">
+            <p class="footer-text">
+                © 2024 Paradigm Pet Professionals. Providing expert advice and resources to care for your furry, scaly, feathery, and slimy loved ones.
+            </p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

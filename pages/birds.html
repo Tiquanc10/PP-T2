@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="../images/logo1.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="cats.html">Cats</a></li>
+                    <li><a href="dogs.html">Dogs</a></li>
+                    <li><a href="birds.html">Birds</a></li>
+                    <li><a href="fish.html">Fish</a></li>
+                    <li><a href="small-animals.html">Small Animals</a></li>
+                </ul>
+            </nav>
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search..." />
+                <button type="button" onclick="performSearch()">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>About Birds</h1>
+            <p>
+                Birds are very intriguing creatures as they can range from birds as small as a Cuban bee hummingbird (about two inches long and a little over 1/20 of an ounce) to as large as an ostrich. While most birds fly, there are some that don't. Birds are amazing and each breed is unique in its own way, particularly when it comes to their relational needs and well-being.
+            </p>
+            <p>
+                Unfortunately, birds can experience sadness and depression just like humans. A number of root causes may be responsible for your bird's depression such as an illness (either physical or mental), losing its companion, or increasingly becoming bored. Some signs to help identify if your bird is experiencing depression may include the following:
+            </p>
+            <ul>
+                <li>Reduced appetite</li>
+                <li>Becoming increasingly irritable</li>
+                <li>Aggressive behavior</li>
+                <li>Songs have a different, more solemn tone</li>
+            </ul>
+            <p>
+                Be sure to tell your veterinarian if you see signs of any of these symptoms. Just like many illnesses, identifying and treating the symptoms earlier may drastically increase the lifespan of your birdie.
+            </p>
+
+            <div class="image-container">
+                <img src="../images/bird1.jpg" alt="Bird Image 1">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="timezone">Time Zone:</label>
+                <input type="text" id="timezone" name="timezone" required>
+                <label for="pet-details">Pet Details (Name, Type, Age):</label>
+                <textarea id="pet-details" name="pet-details" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="conference-image">
+                <img src="../images/confrence.jpg" alt="Conference Image">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo-container">
+            <img src="../images/footer.png" alt="Footer Logo" class="footer-logo">
+            <p class="footer-text">
+                © 2024 Paradigm Pet Professionals. Providing expert advice and resources to care for your furry, scaly, feathery, and slimy loved ones.
+            </p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradigm Pet Professionals</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo1.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/cats.html">Cats</a></li>
+                    <li><a href="pages/dogs.html">Dogs</a></li>
+                    <li><a href="pages/birds.html">Birds</a></li>
+                    <li><a href="pages/fish.html">Fish</a></li>
+                    <li><a href="pages/small-animals.html">Small Animals</a></li>
+                </ul>
+            </nav>
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search..." />
+                <button type="button" onclick="performSearch()">Search</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>Welcome to Paradigm Pet Professionals</h1>
+            <p>
+                Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.
+            </p>
+            <p>
+                Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion.
+            </p>
+            <p>
+                Looking for your new best friend? The following organizations can help you find and adopt the perfect companion:
+            </p>
+            <ul>
+                <li>
+                    <a href="https://bestfriends.org/pet-care-resources/issues/pet-adoption-resources" target="_blank">General Pet Resources</a>
+                    <img src="images/dogs1.jpg" alt="Dog Thumbnail" class="thumbnail">
+                </li>
+                <li>
+                    <a href="https://www.aspca.org/" target="_blank">ASPCA</a>
+                    <img src="images/cat2.jpg" alt="Cat Thumbnail" class="thumbnail">
+                </li>
+                <li>
+                    <a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/" target="_blank">Fish Rescue</a>
+                    <img src="images/fishbowl.jpg" alt="Fish Thumbnail" class="thumbnail">
+                </li>
+                <li>
+                    <a href="https://savethesnakes.org/snakerescuecall/" target="_blank">Snake Rescue</a>
+                    <img src="images/snake.jpg" alt="Snake Thumbnail" class="thumbnail">
+                </li>
+                <li>
+                    <a href="https://ftlob.rescuegroups.org/" target="_blank">Bird Rescue</a>
+                    <img src="images/cat1.jpg" alt="Bird Thumbnail" class="thumbnail">
+                </li>
+            </ul>
+            <p>
+                We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing your new loved one home. Please fill out our contact form to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="timezone">Time Zone:</label>
+                <input type="text" id="timezone" name="timezone" required>
+                <label for="pet-details">Pet Details (Name, Type, Age):</label>
+                <textarea id="pet-details" name="pet-details" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-logo-container">
+            <img src="images/footer.png" alt="Footer Logo" class="footer-logo">
+            <p class="footer-text">
+                © 2024 Paradigm Pet Professionals. Providing expert advice and resources to care for your furry, scaly, feathery, and slimy loved ones.
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

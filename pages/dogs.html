@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="../images/logo1.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="cats.html">Cats</a></li>
+                    <li><a href="dogs.html">Dogs</a></li>
+                    <li><a href="birds.html">Birds</a></li>
+                    <li><a href="fish.html">Fish</a></li>
+                    <li><a href="small-animals.html">Small Animals</a></li>
+                </ul>
+            </nav>
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search..." />
+                <button type="button" onclick="performSearch()">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>About Dogs</h1>
+            <p>
+                The domestic dog is an extremely social animal and offers a diverse variety of choices as there are well over 300 breeds recognized by the World Canine Organization. Adopting a dog offers mutual benefits between dog and owner. Many studies cite the social benefits of having a companion as well as the reduced feelings of loneliness from adopting a dog. Studies even show medical indicators such as reduced blood pressure and improved lipid profiles. If you have a dog, it is important to make sure that you care for your dog; be mindful of what you feed your dog and provide enough opportunities for exercise. In this page, you will find more information about how to care for your pets throughout the various stages of their lives.
+            </p>
+
+            <h2>Diet & Exercise</h2>
+            <p>
+                Throughout dogs’ lifespans, they should generally be fed fewer meals as they mature. Puppies should be nursed the first two months, then introduced to three meals per day when they are about three to six months years old. Their food intake should be reduced to two meals per day when they are six months to one year old and finally reduced to one meal after they reach one year old. And a dog’s typical body mass is composed of somewhere between 60 and 70 percent water. The ASPCA says just a 10 percent decrease in body water can cause illness, and a 15 percent loss can cause death, so make sure you keep your pooch hydrated!
+            </p>
+            <p>
+                Much like humans, dogs need to have a healthy level of activity to keep their organs healthy, as well as sun and fresh air. The minimum recommended time for exercise varies greatly with breed and size differences, but generally a range of 30–120 minutes of exercise is recommended per day! You can also choose from a variety of toys to encourage physical activity; just be sure they are age-appropriate and do not pose a choking hazard. Pay careful attention to toys that require supervision.
+            </p>
+
+            <div class="image-container">
+                <img src="../images/dogs1.jpg" alt="Dog Image 1">
+                <img src="../images/doglog.jpg" alt="Dog Image 2">
+            </div>
+
+            <h2>Grooming & Handling</h2>
+            <p>
+                Keeping your furry family member clean is important to its health. Brush frequently to reduce shedding and prevent matted and tangled fur. Check for insects such as ticks and fleas, especially after visiting wooded areas. Use dog-safe shampoos for bathing. Be cautious when handling your dog; small dogs should be cradled with one hand under the chest and the forearm supporting the back half, while larger dogs require support under the chest and rear.
+            </p>
+
+            <h2>Vaccinations & Medications</h2>
+            <p>
+                You should always consult with your veterinarian, but there is a core set of vaccines that are typically recommended to protect dogs from hepatitis, rabies, and parvovirus. Additional vaccines may be determined by your vet depending on the environment in which the dog resides, such as 
+                <a href="https://www.aspca.org/pet-care/general-pet-care/vaccinations-your-pet" target="_blank">Bordetella bronchiseptica, Borrelia burgdorferi, and Leptospira bacteria</a>.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="timezone">Time Zone:</label>
+                <input type="text" id="timezone" name="timezone" required>
+                <label for="pet-details">Pet Details (Name, Type, Age):</label>
+                <textarea id="pet-details" name="pet-details" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="conference-image">
+                <img src="../images/confrence.jpg" alt="Conference Image">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo-container">
+            <img src="../images/footer.png" alt="Footer Logo" class="footer-logo">
+            <p class="footer-text">
+                © 2024 Paradigm Pet Professionals. Providing expert advice and resources to care for your furry, scaly, feathery, and slimy loved ones.
+            </p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
